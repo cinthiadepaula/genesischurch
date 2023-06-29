@@ -144,11 +144,24 @@ body{
     width: 100%;
 }
 
+.title h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+}
+
 .solution{
     display: flex;
     padding: 32px;
    
     
+}
+
+.solution h1{
+    display: flex;
+    justify-content: center;
+    color: var(--blue);
 }
 
 .solution .card{
@@ -179,6 +192,74 @@ body{
 .solution .card img{
     width: 64px;
 }
+
+
+
+.plans .card-container{
+    display: flex;
+    
+      justify-content: center;
+      align-items: center;
+}
+
+.plans h1{
+    display: flex;
+    justify-content: center;
+    color: var(--blue);
+}
+
+.plans .card{
+    width: 300px;
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+}
+
+.plans .card h2 {
+    text-align: center;
+  }
+
+  .plans .card .title {
+    text-align: center;
+    font-size: 18px;
+    color: var(--blue);
+    font-weight: bold;
+  }
+
+  .plans .card p {
+    text-align: center;
+    font-size: 13px;
+    color: var(--dark);
+  }
+
+
+
+  .plans .card .price {
+    text-align: center;
+    font-size: 24px;
+    color: var(--blue);
+    font-weight: bold;
+    margin: 20px 0;
+  }
+
+  .plans .card .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .plans .button a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
 
 @media(max-width: 785px){
     .navigation{
